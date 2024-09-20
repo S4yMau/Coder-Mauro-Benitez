@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderHouse-02</title>
+</head>
+<body>
+    <!-- Estructura semantica HTML -->
+    <!-- Etiqueta para el banner principal -->
+    <header>
+        <!-- Etiqueta para imagenes -->
+        <img src="../imgs/logo-programacion.png" alt="Poner siempre la descripcion de las imagenes.">
+        <!-- Menu de navegacion -->
+        <nav>
+            <!-- Lista desordenada para el menu -->
+            <ul>
+                <li>
+                    <a href="../index.html">Clase 0</a><!-- Ejemplo de enlaces relativos: Viajamos dentro de nuestros mismos HTMLs -->
+                </li>
+                <li>
+                    <a href="clase1.html">Clase 1</a>
+                </li>
+                <li>
+                    <a href="#">Clase 2</a>
+                </li>
+                <li>
+                    <a href="clase3.html">Clase 3</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Ejemplo de enlace intero -->
+    <a href="#enlace-interno">Enlace interno</a>
+    <!-- Etiquetsa para el contenido principal -->
+    <main>
+        <!-- Etiqueta para el titulo principal -->
+        <h1>Titulo principal</h1><!-- H1 se usa solo una vez  y los H se usan en escalera-->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum consectetur, dicta et provident, quos in quibusdam quod cupiditate dignissimos earum nam fuga! At ut debitis qui ipsam consequatur, sequi culpa.</p>
+        <!-- Etiqueta para incrustar un video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GyHx8U3JL0g?si=vJU1L74sXKtEMLlG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Lista ordenada -->
+        <ol>
+            <li>Coloca tu E-mail</li>
+            <li>Crea una contraseña</li>
+            <li>Crea un usuario</li>
+        </ol>
+    </main>
+    <!-- Etiqueta para contenido extra -->
+    <section>
+        <h2>Subtitulo</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum voluptates sapiente assumenda quo et similique eius adipisci ipsam, velit unde saepe, cupiditate ratione incidunt pariatur fugit, debitis deleniti possimus alias?</p>
+        <!-- Etiquetas para formar una tabla (Actualmente no se usa mucho, solo para maquetado de Mails) -->
+        <table border="2" align="center">
+            <th>Horarios</th>
+            <tr>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miercoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+                <td>Sabado</td>
+                <td>Domingo</td>
+            </tr>
+            <tr>
+                <td>20:30 a 22:30</td>
+                <td>09:00 a 11:00</td>
+                <td>20:00 a 22:30</td>
+                <td>09:00 a 11:00</td>
+                <td>09:00 a 11:00</td>
+                <td>09:00 a 11:00</td>
+                <td>09:00 a 11:00</td>
+            </tr>
+        </table>
+    </section>
+    <article>
+        <!-- Etiquetas para crear formularios -->
+        <form action="">
+            <!-- Etiqueta para encerrar los formularios y ponerle un titulo -->
+            <fieldset>
+                <legend>Completa tus datos</legend>
+                <!-- Campo para completar datos y su nombre -->
+                <div>
+                    <label for="nick">Nombre</label>
+                    <input type="text" id="nick" name="nick" placeholder="Roberto.." required>
+                </div>
+                <!-- Campo para pedir Correo electronico -->
+                <div>
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" name="mail" placeholder="example@hotmail.com" required>
+                </div>
+                <!-- Campo para pedir contraseña -->
+                <div>
+                    <label for="pass">Contraseña</label>
+                    <input type="password" id="pass" name="pass" placeholder="Contraseña aqui" required>
+                </div>
+                <!-- Campo para pedir comentarios o dejar mensajes -->
+                <div>
+                    <label for="text">Dejanos tu comentario</label>
+                    <textarea name="text" id="text" required placeholder="Dejanos tu opinion sobre nosotros..."></textarea>
+                </div>
+                <!-- Botones para enviar y borrar -->
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </fieldset>
+            
+            
+        </form>
+    </article>
+    <!-- Etiquetas para el pie de pagina-->
+    <footer id="enlace-interno">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.700390280996!2d-58.52034072355746!3d-34.61173697295149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d7332684cd%3A0xd9ee55bbdfa6c539!2sDevoto%20Shopping!5e0!3m2!1ses-419!2sar!4v1726797899045!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+            <h3>Redes sociales</h3>
+            <!-- Etiqueta de enlaces. Ejemplo de enlace absoluto: Enlace que me lleve a otra pagina fuera de la mia -->
+            <a href="https://www.youtube.com" target="_blank">Ir a YouTube</a>
+            <!-- Trabajamos con los primeros atributo, pero o obtuvimos una explicacion de los atributos ni tampoco de la sintaxis de las etiquetas HTMLs -->
+        </div>
+        <p>Todos los derechos reservados</p>
+        <span>Elemento de linea</span><!-- Aprendimos lo que son los elementos de bloque y elementos de linea -->
+    </footer>
+    <!-- En esta clase vimos los enlaces basicos, imagenes, iframes, tablas y formularios, clase bastante buena, pero todo muy basico. En este punto terminan las clases de HTML y siento que no se mostraron muchas cosas importantes. Ejemplo del mismo la etiqueta video/audio. Algo tan simple pero no fue mostrado, ni hablemos de cosas mas avanzadas...-->
+</body>
+</html>

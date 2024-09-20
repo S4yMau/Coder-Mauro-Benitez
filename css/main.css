@@ -1,0 +1,34 @@
+/*Maneras de aplicar CSS 
+Selector{
+    propiedad:valor;
+}*/
+li{
+    background-color: blue;
+}
+/* Tipos de selectores */
+/* Selectort por etiqueta, es la que veniamos usando */
+/* CLASS */
+.violet{
+    color: blueviolet;
+}
+/* ID */
+#naranja{
+    color: orange;
+}
+/* Trabajamos con una ruta de especificidad que la verdad no es muy buena, prefiero trabjar con clases y listo, por que puede llegar a generar problemas de especificidad */
+header{
+    text-align: center;
+}
+header ul {
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+}
+footer h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Inria Sans", sans-serif;
+    letter-spacing: 2px;
+}
+/* En esta clase aprendimos los modos de uso de CSS, como enlazarlo con los HTMLs, selectores basicos, especificidad y ruta de especificidad. Tambien se aprendio a como usar google fonts */
