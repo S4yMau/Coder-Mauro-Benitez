@@ -1,3 +1,4 @@
+/* ----------------------------------Clase 03-------------------------------- */
 /*Maneras de aplicar CSS 
 Selector{
     propiedad:valor;
@@ -61,4 +62,102 @@ header ul{
     top: 100px;
     z-index: 10;
 }
-/* En esta clase se ven las propiedades del box-model, overflow y position. Nuevamente todo muy basico */
+/* En esta clase se ven las propiedades del box-model, overflow y position. Nuevamente todo muy basico */ 
+/* ---------------------------------Clase 05----------------------------------- */
+/* Nomenclaturas */
+/* camelCase */
+.claseCinco{
+    background-color:#6BAFC6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+    height: 100px;
+}
+.claseCinco__img{
+    width: 5%;
+    position: static;
+}
+.claseCinco__list{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.claseCinco__list-item{
+    background-color: #6BAFC6;
+}
+/* kebab-case */
+.clase-5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.clase-5__text{
+    text-align: center;
+}
+.clase-5__text span{
+    display: block;
+
+}
+.clase-5__img{
+    position: static;
+    width: 50%;
+
+}
+/* sneak_case */
+.clase_5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #6BAFC6;
+}
+.clase_5__container{
+    text-align: center;
+    width: 33%;
+    min-width: 400px;
+}
+.clase_5__img{
+    position: static;
+    width: 40%;
+}
+.footer-clase5{
+    color: aliceblue;
+}
+/* Aprendimos nomenclaturas, lo mas basico de emmet y basico de flex. Armamos un mini-proyecto. Nuevamente lo aprendido de flex sigue siendo muy basico, ni siquiera aprendemos propiedades de flex-items*/
+/* ---------------------------------Clase 06-------------------------- */
+.grid{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 50px 100px 50px 100px;
+    gap: 1rem;
+    background-color: black;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-template-areas: 
+        "header header header"
+        "main main aside"
+        "section section aside"
+        "footer footer footer";
+}
+.grid__item{
+    background-color: #6BAFC6;
+}
+.uno{
+    grid-area: header;
+}
+.dos{
+    grid-area: main;
+}
+.tres{
+    grid-area: section;
+}
+.cuatro{
+    grid-area: aside;
+    align-self: flex-end;
+}
+/* En la clase 6 aprendimos un poco de grid, fue una clase bastante buena.. */
